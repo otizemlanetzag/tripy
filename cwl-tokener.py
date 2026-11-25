@@ -14,9 +14,10 @@ with open ("index.cwl","r",encoding="utf-8") as file:
           typus="video"
         elif char=="s":
           typus="style"
-        elif char =="c":
-          typus="code"
+        elif char =="l":
+          typus="logic"
         elif char=="a":
           typus="api"
+          
       
           
